@@ -3,6 +3,7 @@ def my_select(array)
    index = 0
    while index < array.size
     if yeild(array[index])
+      new_array = []
       new_array << yeild(array[index])
     end
      index += 1
