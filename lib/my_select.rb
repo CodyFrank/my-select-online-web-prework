@@ -2,7 +2,7 @@ def my_select(array)
  if block_given?
    index = 0
    while index < array.size
-    if yeild(array[index])
+    if yield(array[index])
       new_array = []
       new_array << yield(array[index])
     end
