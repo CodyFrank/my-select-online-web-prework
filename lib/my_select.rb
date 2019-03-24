@@ -8,6 +8,6 @@ def my_select(array)
     end
      index += 1
    end
-   return new_array
  end
+ return new_array
 end
