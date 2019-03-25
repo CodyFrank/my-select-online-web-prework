@@ -11,5 +11,4 @@ def my_select(array)
     end
    end
    return new_array
- end
 end
