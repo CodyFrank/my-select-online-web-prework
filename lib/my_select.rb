@@ -7,7 +7,8 @@ def my_select(array)
       new_array = []
       new_array << (array[index])
     end
-     index += 1
+    index += 1
+    end
    end
    return new_array
  end
