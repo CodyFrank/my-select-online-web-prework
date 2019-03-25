@@ -4,7 +4,9 @@ def my_select(array)
    while index < array.size
      new_array = []
      yield(array[index])
-       yield if true new_array << yield(array[index])
+       yield if true do
+         new_array << yield(array[index])
+       end
      index+= 1
    end
    return new_array
