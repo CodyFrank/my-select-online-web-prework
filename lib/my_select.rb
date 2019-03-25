@@ -7,6 +7,6 @@ def my_select(array)
         new_Array << array[index] if yield(array[index])
     index += 1
    end
-  end
    return new_array
+  end
 end
