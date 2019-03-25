@@ -5,6 +5,7 @@ def my_select(array)
      yield(array[index])
         new_array = []
         if block.call == true {new_array << (array[index])}
+        end
     index += 1
    end
   end
